@@ -1,6 +1,7 @@
 import pygame
 from common import *
-from player import Player
+from player import *
+from thing import *
 
 pygame.init()
 
@@ -18,10 +19,10 @@ while run is True:
 
     screen.fill(colors['WHITE'])
 
+    Object(screen=screen, color=colors['BLACK'], x=200, y=444, width=30, height=90).render_gate()
+
     player.render()
     player.move()
-
-    pressed = pygame.key.get_pressed()
 
     pygame.display.update()
 
