@@ -2,7 +2,7 @@
 .idea/
 
 # gimp files
-.gimp_project/
+gimp_project/
 
 # testing
 test.py
