@@ -7,7 +7,7 @@ pygame.init()
 screen = pygame.display.set_mode((win_x, win_y))
 
 clock = pygame.time.Clock()
-player = Player(screen=screen, img='player_white2.png', p_x=30, p_y=450)
+player = Player(screen=screen, img='player_white.png', p_x=30, p_y=450)
 run = True
 while run is True:
 
