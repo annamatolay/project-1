@@ -1,2 +1,8 @@
 # Pycharm folders
 .idea/
+
+# gimp files
+.gimp_project/
+
+# testing
+test.py
